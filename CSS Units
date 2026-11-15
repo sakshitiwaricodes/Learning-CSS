@@ -1,0 +1,38 @@
+/* .heading {
+  font-size: 40px;
+} */
+.parent {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.child {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+}
+.grandChild {
+  border: 2px solid black;
+  font-size: 2em;
+}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../demo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <p>Hello!</p>
+      <div class="child">
+        <p>Hello!</p>
+        <div class="grandChild">
+          <p>Hello!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
